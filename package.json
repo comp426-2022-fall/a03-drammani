@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Assignment 3",
   "main": "./lib/roll.js",
+  "type": "module",
   "scripts": {
     "test": "roll-dice --sides=6 --dice=2 --rolls=3"
   },
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/comp426-2022-fall/a03-drammani#readme",
   "bin": {
     "roll-dice": "./bin/cli.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.7"
   }
 }
